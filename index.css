@@ -14,10 +14,12 @@ ul
 	padding: 0px;
 }
 /* unvisited link */
+/*
 tr td a:link 
 {
 	color: red;
 }
+*/
 /* visited link */
 tr td a:visited 
 {

@@ -1,0 +1,49 @@
+.ImageOfPageUnderConstruction
+{
+	display: block;
+	height: auto;
+	margin: 10px auto;
+	padding: 10px;
+	width: 50%;
+}
+#ImageOfInventoryControl
+{
+	display: block;
+	height: auto;
+	margin: 10px auto;
+	padding: 10px;
+	width: 50%;
+}
+.DivCenter 
+{
+	margin: auto;
+	width: 50%;
+}
+#SearchForInventory
+{
+	border-color: rgb(15, 111, 167);
+	border-radius: 6px;
+	/*display: block;*/
+	display: inline-block;
+	font-size: 10px;
+	margin: auto;
+	width: 60%;
+	height: 20px;
+}
+#SearchInventoryButton 
+{
+	background-color: rgb(15, 111, 167); /* cornflowerblue */
+	border: none;
+	border-radius: 12px;
+	color: white;
+	padding: 10px 10px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 10px;
+}
+td
+{
+	width:100%;
+    display:table-row;
+}

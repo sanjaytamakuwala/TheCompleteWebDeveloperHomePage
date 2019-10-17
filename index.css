@@ -1,0 +1,99 @@
+a
+{
+	font-size: 20px;
+	text-decoration: none;
+}
+body
+{
+	background-color: white;
+}
+ul
+{
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+/* unvisited link */
+tr td a:link 
+{
+	color: red;
+}
+/* visited link */
+tr td a:visited 
+{
+	color: white;
+}
+/* mouse over link */
+tr td a:hover 
+{
+	color: rgb(179, 179, 179);
+}
+/* selected link */
+tr td a:active 
+{
+	color: white;
+}
+ul li
+{
+	float: left;
+	font-size: 20px;
+	width: auto;
+	height: auto;
+}
+ul li a
+{
+	text-decoration: none;
+	color: rgb(15, 111, 167);
+	display: block;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+ul li a:hover
+{
+	background-color: rgb(15, 111, 167);
+	color: white;
+}
+ul li ul li
+{
+	display: none;
+}
+ul li:hover ul li
+{
+	display: block;
+}
+
+/* Dotted Border */
+hr#Dotted-Border 
+{
+	border-top: 3px dashed rgb(15, 111, 167);
+}
+ul li a img
+{
+	float: right;
+	height: 50px;
+	width: 50px;
+}
+#Footer
+{
+	background-color: rgb(15, 111, 167); /* cornflowerblue */
+	color: white;
+}
+
+#Footer_Table 
+{
+	width: 100%;
+}
+.Table_Image
+{
+	height: 15px;
+	width: 15px;
+}
+td:hover 
+{
+	background-color: rgb(15, 128, 194);
+}
+#Connect_to_US
+{
+	font-size: 30px;
+}
+

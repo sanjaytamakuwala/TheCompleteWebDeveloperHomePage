@@ -14,26 +14,15 @@ ul
 	padding: 0px;
 }
 /* unvisited link */
-/*
-tr td a:link 
-{
-	color: red;
-}
-*/
 /* visited link */
-tr td a:visited 
+tr td a:link, tr td a:visited 
 {
 	color: white;
 }
 /* mouse over link */
-tr td a:hover 
+tr td a:active, tr td a:hover 
 {
 	color: rgb(179, 179, 179);
-}
-/* selected link */
-tr td a:active 
-{
-	color: white;
 }
 ul li
 {

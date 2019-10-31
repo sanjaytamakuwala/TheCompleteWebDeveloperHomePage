@@ -1,9 +1,13 @@
+p:empty
+{
+	height: 60px;
+}
 .ImageOfPageUnderConstruction
 {
 	display: block;
-	height: auto;
+	height: 180pt;
 	margin: 0 auto;
-	width: 50%;
+	width: 80%;
 }
 #ImageOfInventoryControl
 {
